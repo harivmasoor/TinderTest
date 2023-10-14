@@ -68,3 +68,4 @@ Here the user will be able to send messages to his matches and they will be upda
 
 
 Note: The file "GoogleService-Info.plist" required for the project to work is missing. You will need to connect it to your own Firebase project.
+# Tinder-Clone
