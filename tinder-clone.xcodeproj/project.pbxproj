@@ -16,7 +16,6 @@
 		4F08996F278094E600A3BE95 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4F08996E278094E600A3BE95 /* FirebaseFirestore */; };
 		4F089971278094E600A3BE95 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4F089970278094E600A3BE95 /* FirebaseStorage */; };
 		4F089974278095B300A3BE95 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4F089973278095B300A3BE95 /* GoogleSignIn */; };
-		4F0899852781007900A3BE95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F0899842781007900A3BE95 /* GoogleService-Info.plist */; };
 		4F31455427837E5C008D5D4A /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 4F31455327837E5C008D5D4A /* FirebaseFirestoreSwift-Beta */; };
 		4F5129802976E64E008EF944 /* messages_screen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5129702976E64E008EF944 /* messages_screen.jpeg */; };
 		4F5129822976E64E008EF944 /* create_profile_screen_dark_1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4F5129722976E64E008EF944 /* create_profile_screen_dark_1.PNG */; };
@@ -95,6 +94,7 @@
 		4F6E2B1229770C8900F79B69 /* create_profile.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F6E2B0F29770C8900F79B69 /* create_profile.gif */; };
 		4F6E2B1529770D8B00F79B69 /* swiping_example.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F6E2B1429770D8B00F79B69 /* swiping_example.gif */; };
 		4FBBA11B27977419003BC15D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FBBA11D27977419003BC15D /* Localizable.strings */; };
+		5FD71ED52ADB2ADE007283F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FD71ED42ADB2ADE007283F7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,7 +124,6 @@
 		4F0899542780939B00A3BE95 /* tinder_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinder_cloneUITests.swift; sourceTree = "<group>"; };
 		4F0899562780939B00A3BE95 /* tinder_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinder_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4F0899752780963500A3BE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		4F0899842781007900A3BE95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4F5129702976E64E008EF944 /* messages_screen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = messages_screen.jpeg; sourceTree = "<group>"; };
 		4F5129722976E64E008EF944 /* create_profile_screen_dark_1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_profile_screen_dark_1.PNG; sourceTree = "<group>"; };
 		4F5129732976E64E008EF944 /* chat_screen_dark.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_screen_dark.PNG; sourceTree = "<group>"; };
@@ -203,6 +202,7 @@
 		4F6E2B1429770D8B00F79B69 /* swiping_example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = swiping_example.gif; sourceTree = "<group>"; };
 		4FBBA11C27977419003BC15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4FBBA11E27977445003BC15D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5FD71ED42ADB2ADE007283F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +244,7 @@
 				4F0899532780939B00A3BE95 /* tinder-cloneUITests */,
 				4F0899372780939A00A3BE95 /* Products */,
 				4F31455227837E03008D5D4A /* Frameworks */,
+				5FD71ED42ADB2ADE007283F7 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,7 +264,6 @@
 				4F5B5DC52926AA52000E89B0 /* data */,
 				4F6130DE2A325E7A009BC90D /* domain */,
 				4F5B5DDB2926AA5E000E89B0 /* ui */,
-				4F0899842781007900A3BE95 /* GoogleService-Info.plist */,
 				4F0899752780963500A3BE95 /* Info.plist */,
 				4F08993D2780939B00A3BE95 /* Assets.xcassets */,
 				4F08993F2780939B00A3BE95 /* Preview Content */,
@@ -668,10 +668,10 @@
 				4F51298C2976E64E008EF944 /* chat_screen.PNG in Resources */,
 				4F5129852976E64E008EF944 /* messages_screen_dark.PNG in Resources */,
 				4F5129862976E64E008EF944 /* home_screen_dark.PNG in Resources */,
-				4F0899852781007900A3BE95 /* GoogleService-Info.plist in Resources */,
 				4F5129892976E64E008EF944 /* edit_profile_screen_dark_2.PNG in Resources */,
 				4F5129882976E64E008EF944 /* create_profile_screen_2.PNG in Resources */,
 				4F51298A2976E64E008EF944 /* login_screen.png in Resources */,
+				5FD71ED52ADB2ADE007283F7 /* GoogleService-Info.plist in Resources */,
 				4F5129872976E64E008EF944 /* home_screen.PNG in Resources */,
 				4F5129832976E64E008EF944 /* chat_screen_dark.PNG in Resources */,
 			);
@@ -930,10 +930,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tinder-clone/Preview Content\"";
-				DEVELOPMENT_TEAM = WB5S22UYW3;
+				DEVELOPMENT_TEAM = 35SA6VQ6SM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "tinder-clone/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to use this app feature.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -945,7 +946,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexpi.tinder-clone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HabitMaster.HabitMaster.HabitMaster;
 				PRODUCT_NAME = "Tinder Clone";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -961,10 +962,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tinder-clone/Preview Content\"";
-				DEVELOPMENT_TEAM = WB5S22UYW3;
+				DEVELOPMENT_TEAM = 35SA6VQ6SM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "tinder-clone/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to use this app feature.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -976,7 +978,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexpi.tinder-clone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HabitMaster.HabitMaster.HabitMaster;
 				PRODUCT_NAME = "Tinder Clone";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -991,7 +993,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WB5S22UYW3;
+				DEVELOPMENT_TEAM = 35SA6VQ6SM;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1000,7 +1002,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexpi.tinder-cloneTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HabitMaster.HabitMaster.HabitMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1016,7 +1018,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WB5S22UYW3;
+				DEVELOPMENT_TEAM = 35SA6VQ6SM;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1025,7 +1027,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexpi.tinder-cloneTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HabitMaster.HabitMaster.HabitMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1040,7 +1042,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WB5S22UYW3;
+				DEVELOPMENT_TEAM = 35SA6VQ6SM;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1048,7 +1050,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexpi.tinder-cloneUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HabitMaster.HabitMaster.HabitMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1063,7 +1065,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WB5S22UYW3;
+				DEVELOPMENT_TEAM = 35SA6VQ6SM;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1071,7 +1073,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexpi.tinder-cloneUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HabitMaster.HabitMaster.HabitMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
